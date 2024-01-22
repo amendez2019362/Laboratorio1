@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra {
+    background-color: #9DBC98;
+    overflow: hidden;
+}
+
+.boton {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #F9EFDB
+}
+
+.boton:hover {
+    background-color: #EBD9B4;
+}   
+
+.button.active {
+    background-color: #4CAF50;
+    color: white;
+}
