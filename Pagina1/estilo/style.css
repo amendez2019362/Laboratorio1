@@ -1,11 +1,21 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .barra {
-    background-color: #9DBC98;
+    background-color: #638889;
     overflow: hidden;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .boton {
@@ -13,19 +23,97 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
-    background-color: #F9EFDB
+    background-color: #EBD9B4;
+    transition: background-color 0.3s ease;
 }
 
 .boton:hover {
-    background-color: #EBD9B4;
-}   
+    background-color: #F9EFDB;
+}
 
-.button.active {
+.boton.active {
     background-color: #4CAF50;
     color: white;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+#contenido {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #faf5eb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d35400;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #d35400;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #D9EDBF;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+.info img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.gastronomia {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tema1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
