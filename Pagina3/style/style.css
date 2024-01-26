@@ -1,3 +1,8 @@
+* {
+    scroll-behavior: smooth;
+    scroll-margin-top: 90px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -278,3 +283,24 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+footer {
+    background-color: #274d7e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+
+  }
+
+  .contactos, .logo, .direccion {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .contactos h3, .direccion h3 {
+    margin-bottom: 10px;
+  }
