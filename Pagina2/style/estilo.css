@@ -77,7 +77,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    
     bottom: 0;
     width: 100%;
 }
@@ -135,7 +135,7 @@ footer {
     position: fixed;
     width: 150px;
     height: 110vh;
-    margin-left: -855px;
+    margin-left: -660px;
     margin-top: -20px;
     display: flex;
     justify-content: center;
@@ -181,3 +181,6 @@ footer {
     height: 0;
 }
 
+.todo{
+    padding-left: 100px;
+}
