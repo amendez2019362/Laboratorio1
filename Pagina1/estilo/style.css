@@ -15,6 +15,7 @@ body {
     padding: 10px;
     text-align: center;
     width: 100%;
+    left: 190px;
     top: 0;
     z-index: 1000;
 }
@@ -118,13 +119,13 @@ article {
     padding: 20px;
 }
 
-.nav{
+.lateral{
 
     width: 200px;
 }
 
 .nav_link{
-    color: #E6A4B4;
+    color: #F9F7C9;
     display: block;
     padding: 15px 0;
     text-decoration: none;
@@ -137,17 +138,18 @@ article {
 }
 
 .nav_link--inside:hover{
-    background: #F3D7CA;
+    background: #D5F0C1;
 }
 
-.lint{
+.list{
     position: fixed;
-    width: 18px;
-    height: 100vh;
+    width: 150px;
+    height: 110vh;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #F5EEE6;
+    background: #638889;
     z-index: 9999;
 }
 
@@ -182,7 +184,7 @@ article {
 .list_show{
     width: 80%;
     margin-left: auto;
-    border-left: 2px solid #E6A4B4;
+    border-left: 2px solid #F9F7C9;
     list-style: none;
     transition: height .4s;
     height: 0;
