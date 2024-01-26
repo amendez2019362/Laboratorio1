@@ -8,83 +8,117 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3RO92lt36rqpKvd5deA_woOBDEwSOuUKTw">
     <link rel="stylesheet" href="style/estilo.css">
-    <link rel="stylesheet" href="logica/logica.js">
     <title>Portafolio</title>
 </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <img src="img/miCara.png" alt="Tu Nombre" class="img">
-        </div>
-        <h1>Angel Adolfo Méndez Orozco</h1>
-        <p>Desarrollador de Software</p>
-    </header>
+<nav class="lateral">
+    <ul class="list">
+        <li class="item">
+            <div class="list_boton">
+                <img src="img/dashboard.svg" alt="" class="list_img">
+                <a href="../Pagina1/index.html" class="nav_link">Inicio</a>
+            </div>
+        </li>
 
-    <nav>
-        <ul>
-            <li><a href="#sobreMi" oncli>Sobre Mí</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+        <li class="list_item list_item--click">
+            <div class="list_boton list_boton--click">
+                <img src="img/docs.svg" class="list_img">
+                <a href="#" class="nav_link">Paginas</a>
+                <img src="img/arrow.svg" class="list_arrow">
+            </div>
 
-    <main>
-
-        <section id="sobreMi" class="contenido">
-            <h2>Sobre Mí</h2>
-            <p>Soy Angel Adolfo Méndez Orozco, un programador junior que está cursando su último año de carrera en el
-                colegio.
-                Tengo 18 años y llevo más de 2 años estudiando programación, lo que me ha permitido adquirir habilidades
-                en el ámbito de la informática.</p>
-        </section>
-
-        <section id="habilidades" class="contenido">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Cisco</li>
-                <li>Lenguajes de Programación: HTML, CSS, JavaScript, JavaSE, JavaEE, Java.</li>
-                <li>Frameworks: Bootstrap.</li>
-                <li>Base de Datos: MySQL, MongoDB, etc.</li>
+            <ul class="list_show">
+                <li class="list_inside">
+                    <a href="#" class="nav_link nav_link--inside">Kinal</a>
+                </li>
+                <li class="list_inside">
+                    <a href="../Pagina2/index.html" class="nav_link nav_link--inside">Portafolio</a>
+                </li>
             </ul>
-        </section>
 
-        <section id="proyectos" class="contenido">
-            <h2>Proyectos</h2>
-            <div class="proyecto">
-                <h3>Calculadora</h3>
-                <p>He creado una calculadora funcional y versátil utilizando el lenguaje de programación Java. Este
-                    proyecto no solo ha mejorado mis habilidades en el desarrollo de software, sino que también ha
-                    fortalecido mi comprensión de conceptos clave de programación.</p>
-                <img src="img/Calculadora.png" alt="Calculadora">
+        </li>
+    </ul>
+</nav>
+<body>
+        
+   
+    <div>
+        <header>
+            <div class="logo">
+                <img src="img/miCara.png" alt="Tu Nombre" class="img">
             </div>
-            <div class="proyecto">
-                <h3>Clínica</h3>
-                <p>Como programador, creé una aplicación para una clínica que permite a los usuarios agregar a todos sus
-                    empleados (doctores, secretarios, mantenimiento, etc.) y programar citas para cada paciente.</p>
-                <img src="img/Clinica.PNG" alt="Clinica">
-            </div>
-        </section>
+            <h1>Angel Adolfo Méndez Orozco</h1>
+            <p>Desarrollador de Software</p>
+        </header>
 
-        <section id="contacto" class="contenido">
-            <h2>Contacto</h2>
-            <p>Puedes apoyarme siguiéndome en mis redes sociales:</p>
-            <div class="redes">
-                <a href="mailto:mendeza20057@gmail.com" class="email-button">Contactar por Email</a>
-                <a href="https://www.instagram.com/angeel__1l?igsh=cnpzOHNkczRzeGVj" target="_blank"
-                    rel="noopener noreferrer" class="instagram-button">
-                    <i class="fab fa-instagram"></i> Seguir en Instagram
-                </a>
-            </div>
-        </section>
+        <nav>
+            <ul>
+                <li><a href="#sobreMi" oncli>Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
 
-    </main>
 
-    <footer>
-        <p>&copy; 2024 Angel Adolfo Méndez Orozco - Portafolio Virtual</p>
-    </footer>
+        <main>
 
+            <section id="sobreMi" class="contenido">
+                <h2>Sobre Mí</h2>
+                <p>Soy Angel Adolfo Méndez Orozco, un programador junior que está cursando su último año de carrera en
+                    el
+                    colegio.
+                    Tengo 18 años y llevo más de 2 años estudiando programación, lo que me ha permitido adquirir
+                    habilidades
+                    en el ámbito de la informática.</p>
+            </section>
+
+            <section id="habilidades" class="contenido">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Cisco</li>
+                    <li>Lenguajes de Programación: HTML, CSS, JavaScript, JavaSE, JavaEE, Java.</li>
+                    <li>Frameworks: Bootstrap.</li>
+                    <li>Base de Datos: MySQL, MongoDB, etc.</li>
+                </ul>
+            </section>
+
+            <section id="proyectos" class="contenido">
+                <h2>Proyectos</h2>
+                <div class="proyecto">
+                    <h3>Calculadora</h3>
+                    <p>He creado una calculadora funcional y versátil utilizando el lenguaje de programación Java. Este
+                        proyecto no solo ha mejorado mis habilidades en el desarrollo de software, sino que también ha
+                        fortalecido mi comprensión de conceptos clave de programación.</p>
+                    <img src="img/Calculadora.png" alt="Calculadora">
+                </div>
+                <div class="proyecto">
+                    <h3>Clínica</h3>
+                    <p>Como programador, creé una aplicación para una clínica que permite a los usuarios agregar a todos
+                        sus
+                        empleados (doctores, secretarios, mantenimiento, etc.) y programar citas para cada paciente.</p>
+                    <img src="img/Clinica.PNG" alt="Clinica">
+                </div>
+            </section>
+
+            <section id="contacto" class="contenido">
+                <h2>Contacto</h2>
+                <p>Puedes apoyarme siguiéndome en mis redes sociales:</p>
+                <div class="redes">
+                    <a href="mailto:mendeza20057@gmail.com" class="email-button">Contactar por Email</a>
+                    <a href="https://www.instagram.com/angeel__1l?igsh=cnpzOHNkczRzeGVj" target="_blank"
+                        rel="noopener noreferrer" class="instagram-button">
+                        <i class="fab fa-instagram"></i> Seguir en Instagram
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Angel Adolfo Méndez Orozco - Portafolio Virtual</p>
+        </footer>
+    </div>
+    <script src="logica/logica.js"></script>
 </body>
 
 </html>
