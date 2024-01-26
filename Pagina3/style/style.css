@@ -7,11 +7,11 @@ body {
 header {
     background-color: #012c5e;
     color: white;
-    padding: 10px 0;
+    padding: 0px;
     margin-left: 160px;
 }
 
-.botones{
+.botones {
     align-items: center;
     width: 50%;
     height: 200px;
@@ -19,11 +19,15 @@ header {
     gap: 5px;
 }
 
+.barra {
+    padding-bottom: -500px;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
 }
 
 nav li {
@@ -51,29 +55,29 @@ section {
     margin: 40px 0;
 }
 
-.lateral{
+.lateral {
 
     width: 200px;
 }
 
-.nav_link{
+.nav_link {
     color: #F9F7C9;
     display: block;
     padding: 15px 0;
     text-decoration: none;
 }
 
-.nav_link--inside{
+.nav_link--inside {
     border-radius: 6px;
     padding-left: 20px;
     text-align: left;
 }
 
-.nav_link--inside:hover{
+.nav_link--inside:hover {
     background: #D5F0C1;
 }
 
-.list{
+.list {
     position: fixed;
     width: 160px;
     height: 110vh;
@@ -85,18 +89,18 @@ section {
     z-index: 9999;
 }
 
-.list_item{
+.list_item {
     list-style: none;
     width: 100%;
     text-align: center;
     overflow: hidden;
 }
 
-.list_item--click{
+.list_item--click {
     cursor: pointer;
 }
 
-.list_boton{
+.list_boton {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -104,19 +108,19 @@ section {
     margin: 0 auto;
 }
 
-.arrow .list_arrow{
+.arrow .list_arrow {
     transform: rotate(90deg);
 }
 
-.list_arrow{
+.list_arrow {
     margin-left: auto;
     transition: transform .3s;
 }
 
-.list_show{
+.list_show {
     width: 80%;
     margin-left: auto;
-    border-left: 2px solid #F9F7C9;
+    border-left: 2px solid #fbfbfb;
     list-style: none;
     transition: height .4s;
     height: 0;
@@ -130,24 +134,62 @@ section {
 }
 
 #inicio {
-    background-color: #05b1c4;
+    background-color: #00272b;
 }
 
 #noticias {
-    background-color: #05b1c4;
+    background-color: #00272b;
 }
 
 #cursos {
-    background-color: #05b1c4;
+    background-color: #00272b;
 }
 
 #contacto {
-    background-color: #05b1c4;
+    background-color: #00272b;
 }
 
-.todo{
+.todo {
 
     padding-left: 180px;
 }
 
+h1 {
+    text-align: center;
+}
 
+.kinal1 {
+    text-align: center;
+    padding: 80PX;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.section {
+    text-align: center;
+    max-width: 300px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.subTitulos {
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+
+}
