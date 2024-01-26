@@ -14,31 +14,38 @@ header {
 .botones {
     align-items: center;
     width: 50%;
-    height: 200px;
+    height: 70px;
     display: flex;
     gap: 5px;
+
 }
 
-.barra {
-    padding-bottom: -500px;
-}
+.logo {
+    height: 60px; 
+    margin-right: 20px; 
+    align-items: end;
+  }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-
+    padding-bottom: -100px;
 }
 
 nav li {
     display: inline;
     margin-right: 100px;
+    align-items: center;
+
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    align-items: center;
+
 }
 
 .background-image {
@@ -134,19 +141,16 @@ section {
 }
 
 #inicio {
-    background-color: #00272b;
+    background-color: #274d7e;
 }
 
-#noticias {
-    background-color: #00272b;
-}
 
 #cursos {
-    background-color: #00272b;
+    background-color: #274d7e;
 }
 
 #contacto {
-    background-color: #00272b;
+    background-color: #274d7e;
 }
 
 .todo {
@@ -156,20 +160,24 @@ section {
 
 h1 {
     text-align: center;
+    font-size: 35px;
 }
 
 .kinal1 {
     text-align: center;
     padding: 80PX;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
-    background-color: #ffffff;
+    height: 90vh;
+    background-color: #176B87;
     font-size: 20px;
+
 }
 
 .section {
@@ -187,9 +195,42 @@ img {
 }
 
 .subTitulos {
-    border: 2px solid #3498db;
-    border-radius: 20px;
-    padding: 10px;
+    border: 2px solid #B4D4FF;
+    border-radius: 10px;
+    padding: auto;
     display: inline-block;
+    background-color: #B4D4FF;
 
+}
+
+#noticias {
+    text-align: center;
+}
+
+#noticias h1 {
+    font-size: 3em;
+    color: #D5F0C1;
+}
+
+#noticias hr {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #000000;
+}
+
+.partner-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.partner-images img {
+    width: 300px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.partner-images img:hover {
+    transform: scale(1.1); /* Cambia el valor para ajustar el nivel de escala al pasar el cursor */
 }
