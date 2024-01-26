@@ -13,3 +13,11 @@ listElements.forEach(listElement =>{
         menu.style.height = `${height}px`  
       })
 });
+
+function addAnimation(card) {
+    card.classList.add('card-hover');
+}
+
+function removeAnimation(card) {
+    card.classList.remove('card-hover');
+}
